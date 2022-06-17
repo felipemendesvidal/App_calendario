@@ -7,18 +7,19 @@
     <title>Exercicio pratico</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body onload="carregar()">
     
-    <main class="box-container-blue">
+    <main class="box-container-blue" id="fundo">
         <header class="cabecalho">
-            <h1>titulo do exercicio</h1>
+            <h1>Hora do dia</h1>
         </header>
         <section class="box-principal-conteudo">
-            <div>
+            <div class="msg" id="campo-msg">
+                <p>aqui vai a mensagem</p>
 
             </div>
-            <div>
-
+            <div class="foto">
+                <img src="img/manha.jpg" alt="manha" id="imagem-relogio">
             </div>
         </section>
         <footer class="foodi">
