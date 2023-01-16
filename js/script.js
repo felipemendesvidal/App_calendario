@@ -6,7 +6,7 @@ function carregar (){
     var hora_atual = data_atual.getHours();
     var minutos_atual = data_atual.getMinutes();
     var fundo = document.getElementById('fundo');
-    div_msg.innerHTML = `agora são ${hora_atual} : ${minutos_atual} horas`;
+    div_msg.innerHTML = `Agora são ${hora_atual} : ${minutos_atual} horas`;
 
     //para trocar as horas
     if(hora_atual >= 0 && hora_atual < 12){
