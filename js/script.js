@@ -17,7 +17,7 @@ function carregar (){
 
     }else if(hora_atual >= 12 && hora_atual < 18){
         //boa tarde
-        img.src = 'img/tarde.jpg';;;;
+        img.src = 'img/tarde.jpg';
 
     }else{
         //boa noite
