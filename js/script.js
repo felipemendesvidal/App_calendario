@@ -23,7 +23,8 @@ function carregar (){
         //boa noite
         img.src = 'img/nublado.jpg';
     }
-    console.log(fundo)
+    console.log(fundo);
+    alert(fundo);
 }
 
 
